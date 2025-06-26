@@ -61,11 +61,8 @@ function App() {
        <img src={contractIcon} alt="Contract Icon" style={{ width: 200, height: 80, marginBottom: 20 }} />
       <h1>Contract Generator</h1>
       <input type="file" onChange={handleFileChange} accept=".docx" style={inputStyle} />
-      <label>Name</label>
-  <input name="name" onChange={handleChange} style={inputStyle} />
+      <input name="name" placeholder="Name" onChange={handleChange} style={inputStyle} />
       <input type="date" name="startDate" onChange={handleChange} style={inputStyle} />
-      <label>Start Date</label>
-  <input type="date" name="startDate" onChange={handleChange} style={inputStyle} />
       <input
         type="number"
         name="salary"
