@@ -68,8 +68,8 @@ function App() {
         type="number"
         name="salary"
         onChange={handleChange}
-        min="15000"
-        max="100000"
+        min="0"
+        max="10000000"
         step="500"
         placeholder="Salary"
         style={inputStyle}
